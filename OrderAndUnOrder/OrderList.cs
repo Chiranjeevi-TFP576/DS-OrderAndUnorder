@@ -12,7 +12,7 @@ namespace OrderAndUnOrder
 
         public void Ordered(string str)
         {
-            string text = File.ReadAllText(@"D:\Batch 244\OrderAndUnOrder\Order.txt");
+            string text = File.ReadAllText(@"D:\Batch 244\DS-OrderAndUnorder\OrderAndUnOrder\Unorder.txt");
 
             string[] words = text.Split(' ');
 
@@ -64,7 +64,7 @@ namespace OrderAndUnOrder
             }
             string concat = string.Concat(array);
             Console.WriteLine(concat);
-            File.WriteAllText(@"D:\Batch 244\OrderAndUnOrder\Order.txt", concat);
+            File.WriteAllText(@"D:\Batch 244\DS-OrderAndUnorder\OrderAndUnOrder\Unorder.txt", concat);
 
         }
     }
